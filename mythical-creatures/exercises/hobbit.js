@@ -1,7 +1,10 @@
 class Hobbit {
     constructor(name, age = 0) {
-    // Tried to convert this {name: Mark} to a string.
+    // ACCESS THE NAME IN THE OBJECT, DON'T TRY TO CONVERT IT!
     // Need to remember to use dot notation to access the name key.
+    // "name" parameter is actually an objet so should have named it
+    // something like "hobObj" but just left as name.
+    // Used (name.name) to get just the string "name" out of the object.
     this.name = name.name;
     this.age = age;
     this.adult = (this.age >= 33);

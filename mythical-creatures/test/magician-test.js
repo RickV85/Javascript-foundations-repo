@@ -4,12 +4,12 @@ var Magician = require('../exercises/magician');
 describe('Magician', function() {
 // Oh no! It looks like there's no text in the `it` blocks! I guess you'll have to read the tests SUPER carefully to know what the test is expecting!
 
-it.skip('', function() {
+it('', function() {
     assert.isFunction(Magician);
     assert.instanceOf(new Magician({}), Magician);
   });
 
-it.skip('', function() {
+it('', function() {
     var magician1 = new Magician({ name: 'Scott' });
     var magician2 = new Magician({ name: 'Casey' });
 
@@ -17,7 +17,7 @@ it.skip('', function() {
     assert.equal(magician2.name, 'The Great Casey');
   });
 
-it.skip('', function() {
+it('', function() {
     var magician1 = new Magician({ name: 'Scott', assistant: true });
     var magician2 = new Magician({ name: 'Casey', assistant: false });
 
@@ -28,13 +28,13 @@ it.skip('', function() {
     assert.equal(magician2.assistant, false);
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Scott' });
 
     assert.equal(magician.favoriteAccessory, 'top hat');
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Casey', clothing: 'cape' });
 
     assert.equal(magician.favoriteAccessory, 'cape')
