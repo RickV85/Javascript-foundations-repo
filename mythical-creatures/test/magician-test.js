@@ -40,7 +40,7 @@ it('', function() {
     assert.equal(magician.favoriteAccessory, 'cape')
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Scott' });
 
     var spell = magician.performIncantation('abracadabra');
@@ -50,7 +50,7 @@ it.skip('', function() {
     assert.equal(charm, 'ALLAKAZAAM!');
   });
 
-it.skip('', function() {
+it('', function() {
     var magician1 = new Magician({ name: 'Hannah' });
     var magician2 = new Magician({ name: 'Kayla', clothing: 'top hat' });
 
@@ -61,7 +61,7 @@ it.skip('', function() {
     assert.equal(spell2, 'PULL RABBIT FROM TOP HAT');
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Leta', clothing: 'cape' });
 
     var spell = magician.performTrick();
@@ -69,13 +69,13 @@ it.skip('', function() {
     assert.equal(spell, 'PULL DOVE FROM SLEEVE');
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Leta' });
 
     assert.equal(magician.confidencePercentage, 10);
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Leta' });
 
     magician.performTrick();
@@ -89,7 +89,7 @@ it.skip('', function() {
     assert.equal(magician.confidencePercentage, 50);
   });
 
-it.skip('', function() {
+it('', function() {
     var magician = new Magician({ name: 'Scott', assistant: true });
 
     assert.equal(magician.performShowStopper(), 'Oh no, this trick is not ready!');
@@ -101,7 +101,7 @@ it.skip('', function() {
     assert.equal(magician.performShowStopper(), 'WOW! The magician totally just sawed that person in half!');
   });
 
-it.skip('', function() {
+it('', function() {
     var magician1 = new Magician({ name: 'Scott', assistant: false });
     var magician2 = new Magician({ name: 'Hannah', assistant: true });
 
