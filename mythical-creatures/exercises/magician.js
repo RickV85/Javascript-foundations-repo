@@ -1,4 +1,4 @@
-
+// This one used objects as test arguments and had no test descriptions.
 class Magician {
     constructor(magObj) {
     this.name = `The Great ${magObj.name}`;
