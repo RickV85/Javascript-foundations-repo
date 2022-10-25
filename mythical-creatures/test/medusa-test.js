@@ -26,11 +26,8 @@ describe('Medusa', function() {
     var rick = new Medusa(`Rick`);
     var bob = new Medusa(`Bob`);
 
-    // console.log(rick);
-    // console.log(bob);
-
-    assert.deepEqual(rick, new Medusa(`Rick`));
-    assert.deepEqual(bob, new Medusa(`Bob`));
+    assert.deepEqual(rick.name, `Rick`);
+    assert.deepEqual(bob.name, `Bob`);
 
 
   });
