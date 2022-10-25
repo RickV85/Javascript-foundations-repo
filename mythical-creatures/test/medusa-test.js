@@ -28,8 +28,6 @@ describe('Medusa', function() {
 
     assert.deepEqual(rick.name, `Rick`);
     assert.deepEqual(bob.name, `Bob`);
-
-
   });
 
   it('should start with no statues', function() {
