@@ -13,7 +13,7 @@ class Medusa {
             this.statues.push(new Statue(victim.name));
             const freed = this.statues.shift();
             // Had to go back to person to make .mood default state of 
-            // frightened to get thsi to work.
+            // frightened to get this to work.
             return new Person(freed.name, freed.mood = `relieved`);
         }
     }
