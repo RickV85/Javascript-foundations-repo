@@ -110,7 +110,7 @@ describe('Skate Park', function() {
   // Scroll down a bit and finish the Skater tests (line 235)
   // before completing the rest of these Skatepark tests
 
-  it.skip('should take payment from the skater only if it is a private park', function() {
+  it('should take payment from the skater only if it is a private park', function() {
     var tricks = {
       kickflip: true,
       treflip: false,
@@ -148,7 +148,7 @@ describe('Skate Park', function() {
     assert.deepEqual(skatePark2.occupants, [skater])
   })
 
-  it.skip('should only admit skaters to a private park if they can pay', function() {
+  it('should only admit skaters to a private park if they can pay', function() {
     var skatePark = new SkatePark({
       name: 'Curbside',
       year: 2018,
@@ -183,7 +183,7 @@ describe('Skate Park', function() {
     assert.equal(skatePark.admit(skater), `Sorry, you don't have enough money.`)
   })
 
-  it.skip('should only allow 3 skaters at a time for social distancing', function() {
+  it('should only allow 3 skaters at a time for social distancing', function() {
     var tricks = {
       kickflip: true,
       treflip: true,
@@ -364,7 +364,7 @@ describe('Skater', function() {
     assert.equal(skater.tricks.bigSpin, true)
   })
 
-  it.skip('should be able to learn many tricks  after practicing and getting frustrated 3 times', function() {
+  it('should be able to learn many tricks  after practicing and getting frustrated 3 times', function() {
     var tricks = {
       kickflip: true,
       treflip: false,
@@ -391,7 +391,7 @@ describe('Skater', function() {
     assert.equal(skater.tricks.treflip, true)
   })
 
-  it.skip('should lose all frustration after learning a new trick', function() {
+  it('should lose all frustration after learning a new trick', function() {
     var tricks = {
       kickflip: false,
       treflip: false,
